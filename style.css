@@ -1,9 +1,10 @@
 @import './css/global/global.css';
 @import './css/global/header.css';
 @import './css/home/introducao.css';
-
+@import './css/home/tecnologia.css';
 @import './css/utilitarios/componente.css';
 @import './css/utilitarios/tipografia.css';
 @import './css/utilitarios/cores.css';
 @import './css/bicicletas/bicicletas-lista.css';
+@import './css/home/parceiros.css';
 
