@@ -6,8 +6,13 @@
 @import "./css/utilitarios/tipografia.css";
 @import "./css/utilitarios/cores.css";
 @import "./css/bicicletas/bicicletas-lista.css";
+@import "./css/bicicletas/bicicletas.css";
 @import "./css/home/parceiros.css";
 @import "./css/home/depoimento.css";
 @import "./css/seguros/seguros.css";
 @import "./css/global/footer.css";
 @import "./css/termos/termos.css";
+@import "./css/seguros/perguntas.css";
+@import "./css/seguros/vantagens.css";
+@import "./css/bicicleta/bicicleta.css";
+@import "./css/bicicleta/seguro.css";
