@@ -1,6 +1,7 @@
 const links = document.querySelectorAll(".header-menu a");
 
 function ativarLink(link) {
+  console.log(location.href.includes(link.href));
   if (location.href.includes(link.href)) {
     link.classList.add("ativo");
   }
