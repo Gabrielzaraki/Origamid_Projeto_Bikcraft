@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Bicicletas Elétricas">
+  <link rel="shortcut icon" href="favicon.svg" type="image/svg">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,13 +33,13 @@
   <main class="introducao-bg">
     <div class="container introducao">
       <div class="introducao-conteudo">
-        <h1 class="font-1-xxl cor-00">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
-        <p class="font-2-l cor-05">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
-        <a class="botao" href="./bicicletas.html">Escolha a sua</a>
+        <h1 class="font-1-xxl cor-00" data-anime="1000">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
+        <p class="font-2-l cor-05" data-anime="1500">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
+        <a class="botao" href="./bicicletas.html" data-anime="1500">Escolha a sua</a>
       </div>
 
       <div>
-        <img src="./img/fotos/introducao.jpg" alt="Bike elétrica preta">
+        <img data-anime="200" src="./img/fotos/introducao.jpg" alt="Bike elétrica preta">
       </div>
     </div>
   </main>
@@ -195,6 +196,7 @@
       <p class="footer-copy font-2-m cor-06">Bikcraft © direitos reservados.</p>
     </div>
   </footer>
+  <script src="./js/simple-anime.js"></script>
   <script src="./js/script.js"></script>
 </body>
 
